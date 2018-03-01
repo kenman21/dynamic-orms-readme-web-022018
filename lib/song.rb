@@ -3,6 +3,7 @@ require 'active_support/inflector'
 
 class Song
 
+  puts "I reviewed all the code"
 
   def self.table_name
     self.to_s.downcase.pluralize
@@ -59,6 +60,3 @@ class Song
   end
 
 end
-
-
-
